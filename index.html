@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-info">
+            <div>
+                <h4>Get up to 50% off new season styles, limited time only</h4>
+            </div>
+            <div class="nav-info-service">
+                <a href="">Help Center</a>
+                <a href="">Order Tracking
+                </a>
+                <form action="/submit-form" method="post">
+                    <!-- <label for="fruit">Choose a fruit:</label> -->
+                    <select name="fruit" id="fruit">
+                        <option value="apple">English</option>
+                        <option value="banana">Bangla</option>
+                        <option value="cherry">Francais</option>
+                        <option value="date">Nederlands</option>
+                        <option value="grape">Polski</option>
+                    </select>
+                </form>
+                <form action="/submit-form" method="post">
+                    <!-- <label for="fruit">Choose a fruit:</label> -->
+                    <select name="fruit" id="fruit">
+                        <option value="apple">EUR</option>
+                        <option value="apple">USD</option>
+                        
+                    </select>
+                </form>
+            </div>
+        </nav>
+        <hr>
+        <!--  -->
+        <!--  -->
+        <nav class="nav-search">
+            <div>
+                <a href="#" class="fa-brands fa-shopify"></a>
+                <h4>Shopify</h4>
+            </div>
+            <div>
+                <form action="">
+                    <input style="padding: 4px; border-radius: 10px; width: 500px;" type="text" placeholder="search your favorite product">
+                    <input class="btn" style="padding: 4px; border-radius: 10px; background-color: rgb(249, 4, 49); color: aliceblue;" type="submit" value="SEARCH">
+                </form>
+            </div>
+            <div class="nav-reg">
+                <a style="text-decoration: none; border-right: 1px solid; padding: 5px;" href="">LOGIN</a>
+                <a style="text-decoration: none;"  href="">REGISTER</a>
+            </div>
+        </nav>
+        <hr>
+        <!--  -->
+        <!--  -->
+        <nav class="navbar">
+            <!-- 1st part: Select Form -->
+            <div class="select-form">
+                <select name="options" id="options">
+                    <option value="" >Shop By Categories</option>
+                    <option value="option2">Fashion</option>
+                    <option value="option3">Jewellery</option>
+                </select>
+            </div>
+    
+            <!-- 2nd part: Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a style="color: black;" href="index.html">Home</a></li>
+                <li><a style="border-bottom: 3px solid greenyellow;" href="single_product.html">Single Product</a></li>
+                <li><a style="color: black;"  href="index.html">Registration</a></li>
+                <li><a style="color: black;"  href="index.html">Contact with a map</a></li>
+            </ul>
+    
+            <!-- 3rd part: Paragraph -->
+            <div class="nav-icon">
+                <i class="fa-solid fa-truck-ramp-box"></i>
+            <p>Free International Delivery</p>
+            </div>
+        </nav>
+    
+        
+    </header>
+<!-- hero -->
+    <section class="hero">
+        <div class="hero-main">
+            <div>
+            <h4>Big Saving Days Sale</h4>
+            <h2>Women Solid Round <br>Green T-Shirt</h2>
+            <h4>Starting At Only <span>&#36; 59.00</span> </h4><br>
+            <a href="single_product.html">Shop Now</a>
+            </div>
+        </div>
+        <div class="hero-sub">
+            <img src="/asset/sub-banner-1.jpg" alt="" srcset="">
+            <img src="/asset/sub-banner-2.jpg" alt="" srcset="">
+        </div>
+    </section>
+    <!-- single product -->
+    <section class="single-product">
+        <h2 style="text-align: center; margin-bottom: 20px; ">Single Product</h2>
+        <div class="single-product-img">
+            
+            <div class="single-img">
+                <a href="smart_table.html"><img src="/asset/smart_table.jpg" alt=""></a>
+                <h4 style="text-align: center;">Smart Table</h4>
+            </div>
+            <div class="single-img" >
+                <a href="T-Shirt.html"><img src="/asset/T-Shirt.jpg" alt=""></a>
+                <h4 style="text-align: center;">Crepe T-Shirt</h4>
+            </div>
+            <div class="single-img">
+                <a href="watch.html"><img src="/asset/watch.jpg" alt=""></a>
+                <h4 style="text-align: center;">watch</h4>
+            </div>
+            <div class="single-img">
+                <a href="rolling.html"><img src="/asset/Rolling Diamond.jpg" alt=""></a>
+                <h4 style="text-align: center;">Rolling Diamond</h4>
+            </div>
+            <div class="single-img">
+                <a href="chair.html"><img src="/asset/Chair.jpg" alt=""></a>
+                <h4 style="text-align: center;">Chair</h4>
+            </div>
+            <div class="single-img">
+                <a href="sneaker.html"><img src="/asset/Sneaker.jpg" alt=""></a>
+                <h4 style="text-align: center;">Sneaker</h4>
+            </div>
+            <div class="single-img">
+                <a href="purse.html"><img src="/asset/Purse.jpg" alt=""></a>
+                <h4 style="text-align: center;">Purse</h4>
+            </div>
+            
+                   
+        </div>
+    </section>
+    <!-- form -->
+     <h2 style="text-align: center;">Register form</h2>
+    <br>
+     <section class="form">
+        
+    <div class="registration-form form">
+        
+        <form action="/submit-registration" method="post">
+            <div>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+            </div>
+            <div>
+                <label for="fname">Email</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+            </div>
+            <div>
+                <label for="fname">Phone Number</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+            </div>
+            <div>
+                <label for="fname">Password</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+            </div>
+            <div>
+                <label for="fname">Confirm Password</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</section> 
+<section class="map" style="align-items: center;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236153.75659037067!2d91.65422448901467!3d22.357312060703535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8a64095dfd3%3A0x5015cc5bcb6905d9!2sChattogram!5e0!3m2!1sen!2sbd!4v1723822807738!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+</body> 
+</html>

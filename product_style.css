@@ -1,0 +1,26 @@
+.one-product{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.one-product-img{
+    height: 500px;
+    /* padding: 50px; */
+}
+.one-product-text a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: red;
+    color: aliceblue;
+    /* padding: 10px; */
+    /* margin: 20px; */
+    padding: 5px;
+    /* display: flex; */
+    /* align-items: end; */
+}

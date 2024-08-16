@@ -1,0 +1,15 @@
+.single-product-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* border: 2px solid; */
+}
+.single-img{
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 0;
+}
+.single-product-img div img{
+/* height: 300px; */
+}
